@@ -1,9 +1,10 @@
-import media
-import fresh_tomatoes
+import media           # for movie class
+import fresh_tomatoes  # for the HTML Udacity course website
 
 
+# Here, all the movies are created with calling the Movie class from media.py
 avatar = media.Movie("Avatar",
-                     "Avatar",
+                     "Avatar", 
                      "http://t0.gstatic.com/images?q=tbn:ANd9GcQCfmvrE4fMo2cd8esc7mDZPtFSJThAujddMPkRtti1_ij6u-jp",
                      "https://www.youtube.com/watch?v=5PSNL1qE6VY")
 
@@ -47,7 +48,10 @@ titanic = media.Movie("Titanic",
                       "https://i.ytimg.com/vi/jIhicnTgArM/movieposter.jpg",
                       "https://www.youtube.com/watch?v=zCy5WQ9S4c0")
 
+# Now, all the moves are grouped into a list
 movies = [avatar, casino_royale, hurt_locker, quantum_of_solace, blood_diamond,
           terminator_2, top_gun, god_father, titanic]
 
+# This function is called from the Udacity course material to create the website.
+# All movies (list) are sent to that function.
 fresh_tomatoes.open_movies_page(movies)

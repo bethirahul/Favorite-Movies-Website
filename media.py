@@ -1,3 +1,4 @@
+# Movie Class with 4 variables
 class Movie():
     def __init__(self, title, franchise, poster_image_url, trailer_youtube_url):
         self.title = title
