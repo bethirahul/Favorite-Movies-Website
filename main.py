@@ -11,11 +11,6 @@ casino_royale = media.Movie("Casino Royale",
                             "http://www.gstatic.com/tv/thumb/movieposters/159167/p159167_p_v8_aa.jpg",
                             "https://www.youtube.com/watch?v=36mnx8dBbGE")
 
-cars = media.Movie("Cars",
-                   "Cars",
-                   "http://www.gstatic.com/tv/thumb/movieposters/159400/p159400_p_v8_aa.jpg",
-                   "https://www.youtube.com/watch?v=SbXIj2T-_uk")
-
 hurt_locker = media.Movie("The Hurt Locker",
                           "The Hurt Locker",
                           "http://www.gstatic.com/tv/thumb/movieposters/197175/p197175_p_v8_ah.jpg",
@@ -39,24 +34,19 @@ terminator_2 = media.Movie("Terminator 2: Judgement Day",
 top_gun = media.Movie("Top Gun",
                       "Top Gun",
                       "http://t2.gstatic.com/images?q=tbn:ANd9GcSVCaXEcuVO3eMn2X0c0_TGdISkfQMfyy1lRkTZ88sfIIj-g-5d",
-                      "https://www.youtube.com/watch?v=VN8ze3S0Uj8")
+                      "https://www.youtube.com/watch?v=qAfbp3YX9F0")
 
 god_father = media.Movie("God Father",
                          "God Father",
                          "http://3.bp.blogspot.com/-rj68Bw1uQJ4/TzQ9P3yaSiI/AAAAAAAAB0E/nj1kVB09M8A/s1600/godfather_ver1.jpg",
-                         "https://www.youtube.com/watch?v=5DO-nDW43Ik")
-
-fast_and_furious = media.Movie("The Fast and the Furious",
-                               "Fast and Furious",
-                               "https://vignette.wikia.nocookie.net/fastandfurious/images/0/04/The_Fast_and_the_Furious_%28DVD_Cover%29.jpeg/revision/latest?cb=20150501043627",
-                               "https://www.youtube.com/watch?v=ZsJz2TJAPjw")
+                         "https://www.youtube.com/watch?v=sY1S34973zA")
 
 titanic = media.Movie("Titanic",
                       "Titanic",
                       "https://i.ytimg.com/vi/jIhicnTgArM/movieposter.jpg",
                       "https://www.youtube.com/watch?v=zCy5WQ9S4c0")
 
-movies = [avatar, casino_royale, cars, hurt_locker, quantum_of_solace, blood_diamond,
-          terminator_2, top_gun, god_father, fast_and_furious, titanic]
+movies = [avatar, casino_royale, hurt_locker, quantum_of_solace, blood_diamond,
+          terminator_2, top_gun, god_father, titanic]
 
 fresh_tomatoes.open_movies_page(movies)
