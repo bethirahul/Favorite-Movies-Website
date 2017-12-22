@@ -1,13 +1,14 @@
 import media
 import fresh_tomatoes
 
+
 avatar = media.Movie("Avatar",
                      "Avatar",
                      "http://t0.gstatic.com/images?q=tbn:ANd9GcQCfmvrE4fMo2cd8esc7mDZPtFSJThAujddMPkRtti1_ij6u-jp",
                      "https://www.youtube.com/watch?v=5PSNL1qE6VY")
 
 casino_royale = media.Movie("Casino Royale",
-                            "James Bond",
+                            "James Bond: 007",
                             "http://www.gstatic.com/tv/thumb/movieposters/159167/p159167_p_v8_aa.jpg",
                             "https://www.youtube.com/watch?v=36mnx8dBbGE")
 
@@ -17,7 +18,7 @@ hurt_locker = media.Movie("The Hurt Locker",
                           "https://www.youtube.com/watch?v=AIbFvqFYRT4")
 
 quantum_of_solace = media.Movie("Quantum of Solace",
-                                "James Bond",
+                                "James Bond: 007",
                                 "http://www.gstatic.com/tv/thumb/movieposters/170973/p170973_p_v8_ah.jpg",
                                 "https://www.youtube.com/watch?v=f6acw690AqQ")
 
